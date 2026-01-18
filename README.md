@@ -45,11 +45,13 @@ The competition featured a checkpoint-based navigation system where the robot ha
 2. **Checkpoint 2** - Stop for 5 seconds
 3. **Checkpoint 3** - Turn on Green LED (continues until checkpoint 4)
 4. **Checkpoint 4** - Turn off Green LED
-5. **Junction (False Trigger)** - Take left turn
+5. **Junction (False Trigger)** - Take left turn (skipping the optional loop)
 6. **Checkpoint 6** - Perform 360° rotation and continue
 7. **Checkpoint 7** - Reverse traverse until next checkpoint detected
 8. **Checkpoint 8** - Reverse traverse, ignore next checkpoint, stop at subsequent checkpoint
 9. **Final Checkpoint** - Stop and blink Red LED 5 times
+
+**Note**: The map included an optional loop section at the junction. We chose to skip it by taking the left turn, optimizing for speed and reliability.
 
 **Reverse Traverse**: Rotate 180° until line is detected, then follow the line in reverse direction.
 
