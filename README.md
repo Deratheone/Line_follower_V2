@@ -2,6 +2,9 @@
 
 An autonomous line follower robot with checkpoint-based navigation system, implementing PID control and sequential task execution. Built for the Line Follower Competition at Model Engineering College, Kochi, where it secured first prize.
 
+![Line Follower Robot - Front View](images/linefollower_frontview.jpeg)
+*Line follower robot - front view*
+
 ---
 
 ## Background
